@@ -6,7 +6,6 @@
     oneview_username: xxxxx
     oneview_password: xxxx
     oneview_validate_certs: no
-    delegate_to: localhost
     config: /root/.ansible/collections/ansible_collections/hpe/oneview/config.json
   tasks:
     - name: Gather facts about all Enclosures
@@ -24,6 +23,7 @@
           count: 3
           sort: 'name:descending'
           filter: 'status=OK'
+      delegate_to: localhost
 
     - debug: var=enclosures
 
