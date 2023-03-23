@@ -1,9 +1,9 @@
 {
-    "ip": "10.88.160.205",
+    "ip": "xxxxx",
     "credentials": {
-      "userName": "Infra_admin",
+      "userName": "xxxxx",
       "authLoginDomain": "",
-      "password": "Oneview!098"
+      "password": "xxxxxx"
     },
     "api_version": ""
   }  
