@@ -2,9 +2,6 @@
   hosts: all
   gather_facts: no
   vars:
-    oneview_host: x.x.x.x
-    oneview_username: xxxxx
-    oneview_password: xxxx
     oneview_validate_certs: no
     config: /root/.ansible/collections/ansible_collections/hpe/oneview/config.json
   tasks:
