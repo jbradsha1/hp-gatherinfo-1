@@ -27,7 +27,7 @@
     - name: Gather facts about an Enclosure by name
       oneview_enclosure_facts:
         config: "{{ config }}"
-        name: "{{ contents.enclosure.enclosure_name }}"
+        name: "{{ contents.enclosure.hpe02-syn01 }}"
       delegate_to: localhost
 
     - debug: var=enclosures
