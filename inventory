@@ -1,0 +1,11 @@
+all:
+  hosts:
+    synergy_chassis:
+      ansible_host: 10.88.160.205
+      ansible_user: Infra_admin
+      ansible_password: Oneview!098
+      #ansible_shell_type: bash
+      #api_version: 5000
+      ansible_python_interpreter: /usr/bin/python3
+      #scp_if_ssh: True
+      gather_facts: no
